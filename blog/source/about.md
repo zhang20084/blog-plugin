@@ -64,7 +64,7 @@ createRouter({
 
 ## Layouts
 
-There're too layouts: `essay` and `index`, and they should be populated at `your-layouts/essay.vue` and `your-layouts/index.vue`
+There're two layouts: `essay` and `index`, and they should be populated at `your-layouts/essay.vue` and `your-layouts/index.vue`
 
 ### Props
 

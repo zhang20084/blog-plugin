@@ -1,10 +1,13 @@
 {
-  "name": "blog-plugin",
+  "name": "@ream/blog-plugin",
   "version": "0.1.0",
   "description": "Blog plugin for unvue.",
   "repository": {
     "url": "egoist/blog-plugin",
     "type": "git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "main": "lib/index.js",
   "files": [

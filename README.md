@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-yarn add blog-plugin
+yarn add @ream/blog-plugin
 ```
 
 Check out usage: https://ream-blog-plugin.surge.sh/about

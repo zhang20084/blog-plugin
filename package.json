@@ -1,6 +1,6 @@
 {
   "name": "blog-plugin",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Blog plugin for unvue.",
   "repository": {
     "url": "egoist/blog-plugin",

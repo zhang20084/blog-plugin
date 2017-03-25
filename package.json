@@ -31,6 +31,9 @@
     "esnext": true,
     "envs": [
       "jest"
+    ],
+    "ignores": [
+      "blog/**/*"
     ]
   },
   "dependencies": {

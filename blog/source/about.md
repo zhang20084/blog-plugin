@@ -32,9 +32,11 @@ const router = createRouter()
 export default { router }
 ```
 
-Run `unvue dev` enjoy!
+Run `ream dev` enjoy!
 
 All `source/**/*.md` will be served as pages! eg: when you visit `/2014/12/hello` it will render `source/2014/12/hello.md` for you.
+
+To generate static files, you can run `ream generate` directly.
 
 ## Use Vue component as page
 

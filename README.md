@@ -2,6 +2,8 @@
 
 [![NPM version](https://img.shields.io/npm/v/blog-plugin.svg?style=flat)](https://npmjs.com/package/blog-plugin) [![NPM downloads](https://img.shields.io/npm/dm/blog-plugin.svg?style=flat)](https://npmjs.com/package/blog-plugin) [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&style=flat)](https://github.com/egoist/donate)
 
+> Writing blogs using Vue.js/[REAM](https://github.com/egoist/ream)/Markdown/VueComponents
+
 ## Install
 
 ```bash

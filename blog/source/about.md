@@ -2,6 +2,9 @@
 title: About
 type: page
 ---
+
+If you didn't even know about [REAM](https://github.com/egoist/ream), go check it out!
+
 About **blog-plugin**:
 
 ```bash

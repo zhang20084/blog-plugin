@@ -81,7 +81,12 @@ The parsed markdown file, eg:
   // All other properties come from front-matter
   title: 'Hello World'
   // And we set a default `date` for you, which is the birthtime of the file
-  date: 'dateString'
+  date: 'dateString',
+  // Options for `markdown-it`
+  markdown: {
+    // An array of `markdown-it` plugins
+    use: []
+  }
 }
 ```
 

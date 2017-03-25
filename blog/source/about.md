@@ -5,6 +5,12 @@ type: page
 
 If you didn't even know about [REAM](https://github.com/egoist/ream), go check it out!
 
+A short intro:
+
+> REAM is a framework for server-rendered Vue.js driven by plugins and handlers.
+
+If you know [Gatsby.js](https://github.com/gatsbyjs/gatsby), this plugin actually gives what you want but using Vue.js
+
 About **blog-plugin**:
 
 ```bash

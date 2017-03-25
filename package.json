@@ -1,0 +1,46 @@
+{
+  "name": "blog-plugin",
+  "version": "0.0.0",
+  "description": "Blog plugin for unvue.",
+  "repository": {
+    "url": "egoist/blog-plugin",
+    "type": "git"
+  },
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "jest && npm run lint",
+    "lint": "xo",
+    "deploy": "ream generate && surge -p blog/.ream/dist -d ream-blog-plugin.surge.sh",
+    "dev": "ream dev"
+  },
+  "author": "egoist <0x142857@gmail.com>",
+  "license": "MIT",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "eslint-config-rem": "^3.0.0",
+    "jest-cli": "^18.1.0",
+    "xo": "^0.17.1"
+  },
+  "xo": {
+    "extends": "rem",
+    "esnext": true,
+    "envs": [
+      "jest"
+    ]
+  },
+  "dependencies": {
+    "chokidar": "^1.6.1",
+    "co": "^4.6.0",
+    "date-fns": "^1.28.1",
+    "fs-promise": "^2.0.1",
+    "glob": "^7.1.1",
+    "lodash.template": "^4.4.0",
+    "post-loader": "^1.1.1",
+    "prismjs": "^1.6.0"
+  }
+}

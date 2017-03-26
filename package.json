@@ -1,6 +1,6 @@
 {
   "name": "@ream/blog-plugin",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Blog plugin for unvue.",
   "repository": {
     "url": "egoist/blog-plugin",

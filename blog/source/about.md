@@ -126,4 +126,4 @@ An array of `essay` but with out content.
 Type: `Object`<br>
 Layout: All
 
-The `config` you defined in `createConfig()` 's options.
+The `config` you defined in `createRouter()` 's options.

@@ -64,8 +64,27 @@ createRouter({
   },
   // Custom layouts directory
   layouts: 'themes/my-theme'
-  
+  // Options for `markdown-it`
+  markdown: {
+    // An array of `markdown-it` plugins
+    use: []
+  }
 })
+```
+
+### Markdown options
+
+Default options for `markdown-it`:
+
+```js
+{
+  html: true,
+  linkify: true,
+  typographer: true,
+  use: [
+    require('markdown-it-task-lists')
+  ]
+}
 ```
 
 ## Layouts
@@ -90,12 +109,7 @@ The parsed markdown file, eg:
   // All other properties come from front-matter
   title: 'Hello World'
   // And we set a default `date` for you, which is the birthtime of the file
-  date: 'dateString',
-  // Options for `markdown-it`
-  markdown: {
-    // An array of `markdown-it` plugins
-    use: []
-  }
+  date: 'dateString'
 }
 ```
 

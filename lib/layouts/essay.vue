@@ -48,6 +48,7 @@
   }
 
   .back-button {
+    color: #333;
     width: 55px;
     height: 55px;
     border-radius: 33px;

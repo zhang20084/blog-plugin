@@ -2314,6 +2314,10 @@ map-obj@^1.0.0, map-obj@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/map-obj/-/map-obj-1.0.1.tgz#d933ceb9205d82bdcf4886f6742bdc2b4dea146d"
 
+markdown-it-task-lists@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.npmjs.org/markdown-it-task-lists/-/markdown-it-task-lists-1.4.1.tgz#ca7babc76a678e10837d75a90183f45112b87b05"
+
 markdown-it@^8.3.0:
   version "8.3.1"
   resolved "https://registry.npmjs.org/markdown-it/-/markdown-it-8.3.1.tgz#2f4b622948ccdc193d66f3ca2d43125ac4ac7323"
@@ -2733,9 +2737,9 @@ pluralize@^1.2.1:
   version "1.2.1"
   resolved "https://registry.npmjs.org/pluralize/-/pluralize-1.2.1.tgz#d1a21483fd22bb41e58a12fa3421823140897c45"
 
-post-loader@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.npmjs.org/post-loader/-/post-loader-1.1.1.tgz#fc6ce556408ad68f5d403e30fc7c85abf524b677"
+post-loader@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.npmjs.org/post-loader/-/post-loader-1.1.2.tgz#e5255f72a6c0ca2deaa5c8d644ba7f4edfaa5575"
   dependencies:
     front-matter "^2.1.2"
     loader-utils "^1.0.2"

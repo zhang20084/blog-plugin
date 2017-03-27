@@ -48,6 +48,7 @@
 <style scoped>
   .site-title {
     font-weight: 300;
+    margin: 0;
   }
 
   .post-item {
